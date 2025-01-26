@@ -5,16 +5,7 @@
         <parameter name="OS" value="Windows"/>
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="TestCases.TC_001_VerifyITemInMobileListPageSortedByName"/>
-            <class name="TestCases.TC_002_VerifyCostOfProductInListPageAndDetailedAreEqual"/>
-            <class name="TestCases.TC_003_CannotAddMoreProductThanAvailableInTheStore"/>
-            <class name="TestCases.TC_004_CompareTwoProducts"/>
-            <class name="TestCases.TC_005_CreateNewAccountAndShareWishlistToPeopleWithEmail"/>
-            <class name="TestCases.TC_006_VerifyLoginFunctionallityAndPurchaseItem"/>
-            <class name="TestCases.Tc_007_SavePlacedOrderAsPdf"/>
-            <class name="TestCases.TC_008_ChangeOrReorderPreviouslyaddedProduct"/>
-            <class name="TestCases.TC_009_VerifyDiscountCouponWorksCorrectly"/>
-            <class name="TestCases.TC_010_ExportAllOrdersInCSVFile"/>
+            <class name="TestCases.End_To_End_ScenarioTest"/>
         </classes>
     </test>
 </suite>
