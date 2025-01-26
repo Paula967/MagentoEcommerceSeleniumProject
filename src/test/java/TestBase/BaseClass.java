@@ -31,7 +31,6 @@ public class BaseClass {
                     break;
             }
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-            driver.manage().window().maximize();
             driver.get("http://live.techpanda.org/");
         }
             homePage=new HomePage(driver);
