@@ -15,7 +15,7 @@ public class MobilePage extends BasePage{
     //Constructor
     public MobilePage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locators

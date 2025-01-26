@@ -9,7 +9,7 @@ public class OrderDetailedPage extends BasePage{
     //Constructor
     public OrderDetailedPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
     //Locators
     @FindBy(xpath = "//div[@class='page-title title-buttons']/a[normalize-space()='Print Order']")

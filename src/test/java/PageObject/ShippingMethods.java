@@ -15,7 +15,7 @@ public class ShippingMethods extends BasePage{
     //Constructor
     public ShippingMethods(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locators

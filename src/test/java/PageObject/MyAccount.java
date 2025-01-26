@@ -10,7 +10,7 @@ public class MyAccount extends BasePage{
     //Constructor
     public MyAccount(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locators

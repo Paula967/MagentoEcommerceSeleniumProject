@@ -12,7 +12,7 @@ public class CompareListPage extends BasePage{
 
     public CompareListPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     @FindBy(xpath = "//tr[@class='product-shop-row top first odd']/td/h2/a")

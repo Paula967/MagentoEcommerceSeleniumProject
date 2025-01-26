@@ -14,7 +14,7 @@ public class CustomerLoginPage extends BasePage{
     //Constructor
     public CustomerLoginPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locators

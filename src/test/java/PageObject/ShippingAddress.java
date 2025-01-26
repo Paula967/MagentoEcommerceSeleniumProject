@@ -16,7 +16,7 @@ public class ShippingAddress extends BasePage{
     //Constructor
     public ShippingAddress(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locators

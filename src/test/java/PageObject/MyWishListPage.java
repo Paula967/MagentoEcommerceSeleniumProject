@@ -10,7 +10,7 @@ public class MyWishListPage extends BasePage{
     //Constructor
     public MyWishListPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locators

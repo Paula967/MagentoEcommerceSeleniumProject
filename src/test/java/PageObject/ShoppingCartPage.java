@@ -11,7 +11,7 @@ public class ShoppingCartPage extends BasePage{
     //constructor
     public ShoppingCartPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locators

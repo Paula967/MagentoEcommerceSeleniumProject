@@ -11,7 +11,7 @@ public class DetailedPage extends BasePage {
     //Constructor
     public DetailedPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locator

@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 public class OrdersMagentoAdminPage extends BasePage{
     public OrdersMagentoAdminPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
     //Locators
     @FindBy(xpath = "//select[@id='sales_order_grid_export']")

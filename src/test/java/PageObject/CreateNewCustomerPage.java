@@ -16,7 +16,7 @@ public class CreateNewCustomerPage extends BasePage{
     //Constructor
     public CreateNewCustomerPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locators

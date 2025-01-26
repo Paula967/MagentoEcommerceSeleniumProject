@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class ManageCustomersPage extends BasePage{
     public ManageCustomersPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
     //Locators
     @FindBy(xpath = "//a[@title='close']")

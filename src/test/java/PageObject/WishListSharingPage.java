@@ -11,7 +11,7 @@ public class WishListSharingPage extends BasePage{
     //constructor
     public WishListSharingPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locators

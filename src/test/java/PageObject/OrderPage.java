@@ -13,7 +13,7 @@ public class OrderPage extends BasePage{
     //Constructor
     public OrderPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locators

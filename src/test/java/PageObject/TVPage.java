@@ -10,7 +10,7 @@ public class TVPage extends BasePage{
     //Constructor
     public TVPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locators

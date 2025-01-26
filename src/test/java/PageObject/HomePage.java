@@ -10,7 +10,7 @@ public class HomePage extends BasePage {
     //Constructor
     public HomePage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
 
     //Locators

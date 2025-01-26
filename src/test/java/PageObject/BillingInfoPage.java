@@ -15,7 +15,7 @@ public class BillingInfoPage extends BasePage{
     //Constructor
     public BillingInfoPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+
     }
     //Locators
     @FindBy(xpath = "//input[@title='Check / Money order']")
