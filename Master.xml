@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/lenovo/IdeaProjects/Guru99Project">
+        <parameter name="OS" value="Windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestCases.TC_001_VerifyITemInMobileListPageSortedByName"/>
+            <class name="TestCases.TC_002_VerifyCostOfProductInListPageAndDetailedAreEqual"/>
+            <class name="TestCases.TC_003_CannotAddMoreProductThanAvailableInTheStore"/>
+            <class name="TestCases.TC_004_CompareTwoProducts"/>
+            <class name="TestCases.TC_005_CreateNewAccountAndShareWishlistToPeopleWithEmail"/>
+            <class name="TestCases.TC_006_VerifyLoginFunctionallityAndPurchaseItem"/>
+            <class name="TestCases.Tc_007_SavePlacedOrderAsPdf"/>
+            <class name="TestCases.TC_008_ChangeOrReorderPreviouslyaddedProduct"/>
+            <class name="TestCases.TC_009_VerifyDiscountCouponWorksCorrectly"/>
+            <class name="TestCases.TC_010_ExportAllOrdersInCSVFile"/>
+        </classes>
+    </test>
+</suite>
