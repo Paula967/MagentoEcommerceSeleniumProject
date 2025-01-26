@@ -47,22 +47,22 @@ public class MyAccount extends BasePage{
 
     //Actions
     public String GetMyAccountMessage(){
-       return Welcome_MyAccount_Message.getText();
+       return getMessage(Welcome_MyAccount_Message);
     }
     public TVPage ClickOnTvLink(){
-        TV_lnk.click();
+        ClickOn(TV_lnk);
         return new TVPage(driver);
     }
 
     public MyWishListPage ClickOnMyWishListLink(){
-        MyWishList_lnk.click();
+        ClickOn(MyWishList_lnk);
         return new MyWishListPage(driver);
     }
     public void MyAccountlink(){
-        MyAccount.click();
+        ClickOn(MyAccount);
     }
     public void ClickOnMyOrders(){
-        MyOrders_lnk.click();
+        ClickOn(MyOrders_lnk);
     }
     public OrderDetailedPage ClickOnViewOrder(){
         ViewOrder_lnk.click();

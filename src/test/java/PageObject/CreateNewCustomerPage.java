@@ -49,11 +49,11 @@ public class CreateNewCustomerPage extends BasePage{
         String lname=faker.name().lastName();
         String Email=faker.internet().emailAddress();
         String Password=faker.internet().password();
-        FirstName_txt.sendKeys(fname);
-        SecondName_txt.sendKeys(lname);
-        Email_txt.sendKeys(Email);
-        Password_txt.sendKeys(Password);
-        ConfirmPassword_txt.sendKeys(Password);
+        SendData(FirstName_txt,fname);
+        SendData(SecondName_txt,lname);
+        SendData(Email_txt,Email);
+        SendData(Password_txt,Password);
+        SendData(ConfirmPassword_txt,Password);
         Data.add(0,fname);
         Data.add(1,lname);
         Data.add(2,Email);
@@ -62,7 +62,7 @@ public class CreateNewCustomerPage extends BasePage{
         return Data;
     }
     public MyAccount ClickOnRegister(){
-        Register_btn.click();
+        ClickOn(Register_btn);
         return new MyAccount(driver);
     }
     public void updateConfigFile(String email, String password) {

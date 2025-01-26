@@ -36,11 +36,11 @@ public class BillingInfoPage extends BasePage{
         return this;
     }
     public BillingInfoPage ClickContinueButton(){
-        Continue_btn.click();
+        ClickOn(Continue_btn);
         return this;
     }
     public OrderPage ClickOnPlaceOrder(){
-        Place_Order_btn.click();
+        ClickOn(Place_Order_btn);
         return new OrderPage(driver);
     }
 

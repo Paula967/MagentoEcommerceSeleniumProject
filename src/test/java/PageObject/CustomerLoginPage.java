@@ -38,11 +38,12 @@ public class CustomerLoginPage extends BasePage{
             e.printStackTrace();
 
         }
+
         Email_txt.sendKeys(properties.getProperty("dynamicEmail"));
         Password_txt.sendKeys(properties.getProperty("dynamicPassword"));
     }
     public MyAccount ClickOnLoginButton(){
-        Login_btn.click();
+        ClickOn(Login_btn);
         return new MyAccount(driver);
     }
 

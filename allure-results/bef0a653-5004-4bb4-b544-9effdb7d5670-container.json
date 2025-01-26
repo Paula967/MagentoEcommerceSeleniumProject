@@ -1,1 +1,0 @@
-{"uuid":"bef0a653-5004-4bb4-b544-9effdb7d5670","name":"TestCases.TC_004_CompareTwoProducts","children":["c5fc02a7-aba2-4835-a337-1648bceab67c"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1736962780836,"stop":1736962827630}],"afters":[],"start":1736962780806,"stop":1736962846107}

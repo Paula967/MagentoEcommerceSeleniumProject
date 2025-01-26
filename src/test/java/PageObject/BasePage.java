@@ -1,6 +1,7 @@
 package PageObject;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 public class BasePage {
@@ -11,4 +12,14 @@ public class BasePage {
         this.driver = driver;
 
     }
+    public void ClickOn(WebElement element){
+        element.click();
+    }
+    public void SendData(WebElement element,String data){
+        element.sendKeys(data);
+    }
+    public String getMessage(WebElement element){
+         return element.getText();
+    }
+
 }

@@ -1,1 +1,0 @@
-{"uuid":"d513639a-9bc7-41cb-91c6-6d79cb4a9957","name":"TestCases.Tc_007_SavePlacedOrderAsPdf","children":["53da9867-8f09-4f74-a06e-2eee1c9a236a"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1737469743930,"stop":1737469821047}],"afters":[],"start":1737469743710,"stop":1737469854078}

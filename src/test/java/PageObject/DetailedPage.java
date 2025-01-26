@@ -20,7 +20,7 @@ public class DetailedPage extends BasePage {
 
     //Action
     public String GetPriceInDetailedPage(){
-        return SonyXperia_detailed_price.getText();
+        return getMessage(SonyXperia_detailed_price);
     }
 
 }

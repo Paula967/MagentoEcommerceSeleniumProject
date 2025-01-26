@@ -33,11 +33,12 @@ public class CompareListPage extends BasePage{
         return ComparePhonesNames;
     }
 
-    public String MessageInListPage(){
-        return  MessageOfListPage.getText().toUpperCase();
+    public String MessageInListPage()
+    {
+         return getMessage(MessageOfListPage).toUpperCase();
     }
 
     public void ClickOnCloseWindow_btn(){
-        CloseWindow_btn.click();
+        ClickOn(CloseWindow_btn);
     }
 }

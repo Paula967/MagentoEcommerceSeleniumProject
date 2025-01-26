@@ -34,24 +34,25 @@ public class HomePage extends BasePage {
 
     //Actions
     public MobilePage clickOnMobile(){
-        lnk_Mobile.click();
+        ClickOn(lnk_Mobile);
         return new MobilePage(driver);
     }
     public String getHomePageTitle(){
         return title_HomePage.getText();
     }
     public void ClickOnAccount(){
-        lnk_Account.click();
+        ClickOn(lnk_Account);
     }
     public CreateNewCustomerPage ClickOnRegister(){
-        lnk_Register.click();
+        ClickOn(lnk_Register);
         return new CreateNewCustomerPage(driver);
     }
-    public MyAccount ClickOnMyAccount(){lnk_MyAccount.click();
+    public MyAccount ClickOnMyAccount(){
+        ClickOn(lnk_MyAccount);
     return new MyAccount(driver);
     }
     public CustomerLoginPage ClickOnLogin(){
-        lnk_Login.click();
+        ClickOn(lnk_Login);
         return new CustomerLoginPage(driver);
     }
 }

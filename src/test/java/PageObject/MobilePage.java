@@ -54,7 +54,7 @@ public class MobilePage extends BasePage{
 
     //Actions
     public String getMobilePageTitle(){
-        return  title_MobilePage.getText();
+        return  getMessage(title_MobilePage);
     }
 
     public void SortedByNameInDropDown(){
@@ -71,7 +71,7 @@ public class MobilePage extends BasePage{
         return productNames;
     }
     public DetailedPage ClickOnSonyXperiaLnk(){
-        SonyXperia_lnk.click();
+        ClickOn(SonyXperia_lnk);
         return new DetailedPage(driver);
     }
 
@@ -80,18 +80,18 @@ public class MobilePage extends BasePage{
     }
 
     public ShoppingCartPage ClickOnSonyXperia_AddToCart_btn(){
-        SonyXperia_AddToCart_btn.click();
+        ClickOn(SonyXperia_AddToCart_btn);
         return new ShoppingCartPage(driver);
     }
 
     public MobilePage ClickOnAddToCompareTwoPhones(){
-        AddToCompareSony.click();
-        AddToCompareIphone.click();
+        ClickOn(AddToCompareSony);
+        ClickOn(AddToCompareIphone);
         return this;
     }
 
     public CompareListPage ClickOnCompareBtn(){
-        Compare_btn.click();
+        ClickOn(Compare_btn);
         return new CompareListPage(driver);
     }
     public List<String> GetComparedPhonesInMobilePage(){
@@ -102,7 +102,8 @@ public class MobilePage extends BasePage{
         return ComparePhonesNames;
     }
     public ShoppingCartPage ClickOnAddToCartForIPhone(){
-        IPhoneAddToCart_btn.click();
+        ClickOn(IPhoneAddToCart_btn);
+
         return new ShoppingCartPage(driver);
     }
 }
